@@ -140,3 +140,4 @@ Array.prototype.myfilter = function (num){
 } 
 var value = number.myfilter(10);
 console.log(value);
+ 
