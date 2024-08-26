@@ -122,7 +122,7 @@ const calcAverage4 = (arr) => {
 
 // Calculate the average of totals
 const averageTotal = calcAverage4(totalsArray);
-
+ 
 // Log the average
 console.log('Average Total:', averageTotal.toFixed(2));
 
