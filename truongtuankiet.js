@@ -132,7 +132,7 @@ const number = [45,4,9,16,25];
 Array.prototype.myfilter = function (num){
     let newarr = [];
     console.log(this);
-    for(let i=0; i< this.length;i++){
+    for(let i=0; i< this.length;i++){ 
         if(this[i]>num)
             newarr.push(this[i]);
     }
@@ -140,4 +140,15 @@ Array.prototype.myfilter = function (num){
 }
 var value = number.myfilter(10);
 console.log(value);
- 
+console.log("----------------");
+const numbers = [5, 10, 15, 20, 25];
+
+const greaterThanTen = numbers.filter(number => number > 10);
+
+console.log(greaterThanTen); // Output: [15, 20, 25]
+console.log("----------------");
+const numbers2 = [1, 2, 3, 4, 5, 6];
+
+const evenNumbers = numbers2.filter(number2 => number2 % 2 === 0);
+
+console.log(evenNumbers); // Output: [2, 4, 6]
