@@ -137,7 +137,7 @@ Array.prototype.myfilter = function (num){
             newarr.push(this[i]);
     }
     return newarr;
-} 
+}
 var value = number.myfilter(10);
 console.log(value);
  
